@@ -247,11 +247,11 @@ function levelStart(){
     hp = lvl * 62;
    }
    $('.hp_opponent').text('Хп врага: ' + hp);
-   rndTop = getRandomInt(420);
-   rndleft = getRandomInt(1300);
-   rndTopMoney = getRandomInt(360);
+   rndTop = getRandomInt(460);
+   rndleft = getRandomInt(1330);
+   rndTopMoney = getRandomInt(400);
    rndleftMoney = getRandomInt(1200);
-   left = 1330;
+   left = 1300;
 
    $('.your_lvl').text('Уровень: ' + lvl);
    $('.money').text('У вас: ' + money + ' монет');
