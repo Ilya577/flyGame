@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Game</title>
+  </head>
+  <body>
+
+     <div class="game_window">
+        <div class="up_block"></div>
+        <div class="middle_line"></div>
+        <div class="down_block"></div>
+
+        <div class="middle_line_right"></div>
+        
+        <img src="./img/boost.gif" class="boost" alt="boost">
+        <img src="./img/more_money.gif" class="more_money" alt="more_money">
+     </div>
+
+     <div class="interface">
+
+      <div class="interface_block">
+       <div class="hp_opponent"></div>
+       <div class="your_lvl"></div>
+       <div class="money"></div>      
+      </div>
+
+      <div class="interface_block">
+        <img src="./img/pause.png" class="pause" alt="pause">
+        <img src="./img/play.png" class="play" alt="play">
+       </div>
+
+     </div>
+
+<div class="pokupki">
+  <button class="buy_knife">Купить нож (200 монет)</button>
+  <button class="slow">Замедлить (700 монет)</button>
+  <button class="buy_sword" disabled = 'disabled'>Купить меч (450 монет)</button>
+  <button class="buy_gun" disabled = 'disabled'>Купить пистолет (1000 монет)</button>
+  <button class="buy_ak" disabled = 'disabled'>Купить Ак-47 (2200 монет)</button>
+  <button class="damage">Усилить оружие на 15% (1000 монет)</button>
+</div>
+
+<div class="knife_bought"></div>
+<div class="sword_bought"></div>
+<div class="gun_bought"></div>
+<div class="ak_bought"></div>
+<div id="parent_popup">
+<div class="lost">Вы проиграли!</div>
+<button class="ok">Ок</button>
+</div>
+<div class="pause_animat"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
